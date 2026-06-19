@@ -1,0 +1,64 @@
+body {
+    background-color: #def9ff;
+}
+
+.card-filme {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-filme:hover {
+    transform: scale(1.03);
+}
+
+.card-filme img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.card-series {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-series hover {
+    transform: scale(1.03);
+}
+
+.card-series img {
+    height: 550px;
+    object-fit: cover;
+}
+
+.card-jogos {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card-jogos hover {
+    transform: scale(1.03);
+}
+
+.card-jogos img {
+    height: 220px;
+    object-fit: cover;
+}
